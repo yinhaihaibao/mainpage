@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<style>
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+</style>
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<title>bootstrap首页</title>
+<style>
+.section { text-align: center; font-family:"Microsoft Yahei"; color: #333;}
+/* flexslider */
+.flexslider{position:relative;overflow:hidden;background:url(images/loading.gif) 50% no-repeat;}
+.slides{position:relative;z-index:1;width:100%;margin:0 auto;}
+.flex-control-nav{position:absolute;bottom:50px;z-index:2;width:100%;text-align:center;display:none;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(images/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:40px;background:url(images/prev.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:40px;background:url(images/next.png) center center no-repeat;}
+li,ul{list-style:none;}
+.slides li{
+background:url(images/ok1.jpg);
+background-size: 100% auto; 
+background-repeat: no-repeat; }
+.hybj{height:50%;}
+</style>
+</head>
+<body>
+	<div id="dowebok">
+        <div class="section">
+           <div class="flexslider">
+                <ul class="slides">
+                    <li id="slides_1" style="background:url(images/ok1.jpg);background-size: 100% auto;background-repeat: no-repeat;"></li>
+                    <li id="slides_2" style="background:url(images/ok2.jpg);background-size: 100% auto;background-repeat: no-repeat;"></li>
+                    <li id="slides_3" style="background:url(images/ok3.jpg);background-size: 100% auto;background-repeat: no-repeat;"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="row two_top" style="height:30%;">
+            	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:100%;">
+                	<h2>行业布局</h2>
+                    <h4 style="margin-top:20px;color:#666;padding-left:20px;padding-right:20px;">行业领导型解决方案、自主知识产权应用软件产品和服务提供商</h4>
+                    <div class="col-lg-2 col-lg-offset-5 col-xs-4 col-xs-offset-4" style="margin-top:20px;border-bottom:2px solid #0099ff;"></div>
+                </div>
+            </div>
+            <div class="row container two_bottom" style="height:70%;margin:auto;">
+            	<div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服务，互服务，保障卡，公共服务，互联网人设</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服务，互联网人省级大集中人设</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服务，互联网人设，省卡，公共服务，互联网人设省级大集中，社会</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服互联网人设省级大集中，社会保障卡，公共服务</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服互联网人设省级大集中，社会保障卡，公共服务</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 hybj" style="overflow:hidden">
+                	<img src="images/icon2.png" style="float:left;height:26px;padding-left:10%;"/>
+                    <h3 style="float:left;margin-top:0;">政府行业</h3>
+                    <p style="width:100%;float:left;padding-left:10%;text-align:left;">省级大集中，社会保障卡，公共服互联网人设省级大集中，社会保障卡，公共服务</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>第三屏</h3>
+        </div>
+        <div class="section">
+            <h3>第四屏</h3>
+            <p>这是最后一屏</p>
+        </div>
+    </div>
+</body>
+<script type="application/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="application/javascript" src="js/bootstrap.min.js"></script>
+<script type="application/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		sectionsColor: ['#1bbc9b', '#fff', '#fff', '#fff']
+	});
+	var height=screen.availHeight;
+	$(".slides").css("height",height);
+	$(".slides li").css("height",height);
+	var section_height=$(".section").height();
+	var section_width=$(".section").width();
+	//小屏手机
+	if(section_width<768){
+		$(".hybj").css("height","33.3%");
+		$("#slides_1").css("background","url(images/oks1.jpg)");
+		$("#slides_2").css("background","url(images/oks2.jpg)");
+		$("#slides_3").css("background","url(images/oks3.jpg)");
+		$("#slides_1").css("background-size","100% auto");
+		$("#slides_2").css("background-size","100% auto");
+		$("#slides_3").css("background-size","100% auto");
+		$("#slides_1").css("background-repeat","no-repeat");
+		$("#slides_2").css("background-repeat","no-repeat");
+		$("#slides_3").css("background-repeat","no-repeat");
+		$(".two_top").css("height","25%");
+		$(".two_bottom").css("height","75%");
+	}
+	$('.flexslider').flexslider({
+		directionNav: true,
+		pauseOnAction: false
+		
+	/*	 namespace: 'flex-',    //控件的命名空间，会影响样式前缀 
+        animation: "slide", //String: Select your animation type, "fade" or "slide"图片变换方式：淡入淡出或者滑动
+        slideDirection: "horizontal", //String: Select the sliding direction, "horizontal" or "vertical"图片设置为滑动式时的滑动方向：左右或者上下
+        
+        selector: '.thumbnails .thumbnail',
+        slideshowSpeed: 5000, // 自动播放速度毫秒
+        animationSpeed: 600, //滚动效果播放时长
+        pausePlay: false,//是否显示播放暂停按钮
+        minItems: common.globals.SCREEN.ITEM,//最少显示多少项
+        itemWidth: 220,//一个滚动项目的宽度
+        itemMargin: 20,//滚动项目之间的间距
+        slideshow: true, //Boolean: Animate slider automatically 载入页面时，是否自动播放
+        animationDuration: 600, //Integer: S动画淡入淡出效果延时
+        directionNav: true, //Boolean:  (true/false)是否显示左右控制按钮
+        controlNav: true, //Boolean:  usage是否显示控制菜单//什么是控制菜单？
+        keyboardNav: true, //Boolean:left/right keys键盘左右方向键控制图片滑动
+        mousewheel: false, //Boolean: mousewheel鼠标滚轮控制制图片滑动
+        prevText: "Previous", //String: 上一项的文字
+        nextText: "Next", //String: 下一项的文字
+        pauseText: 'Pause', //String: 暂停文字
+        playText: 'Play', //String: 播放文字
+        randomize: false, //Boolean: Randomize slide order 是否随机幻灯片
+        slideToStart: 0, //Integer:  (0 = first slide)初始化第一次显示图片位置
+        animationLoop: true, //  "disable" classes at either end 是否循环滚动 循环播放
+        pauseOnAction: true, //Boolean:  highly recommended.
+        pauseOnHover: false, //Boolean: ng
+        controlsContainer: "", //Selector:  be taken.
+        manualControls: ".js-slidernav i", //Selector: .自定义控制导航// 小圆点活数字标示 css 选择器        
+        manualControlEvent: "", //String:自定义导航控制触发事件:默认是click,可以设定hover
+        start: function() {}, //Callback: function(slider) - Fires when the slider loads the first slide
+        before: function() {}, //Callback: function(slider) - Fires asynchronously with each slider animation
+        after: function() {}, //Callback: function(slider) - Fires after each slider animation completes
+        end: function() {} //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)*/
+	});
+});
+</script>
+</html>
